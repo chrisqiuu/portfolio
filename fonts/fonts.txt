@@ -1,0 +1,17 @@
+// Rajdhani 300light, 400reg, 600semib
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+// font-family: 'Rajdhani', sans-serif;
+
+// Montserrat 100thin, 200xlight, 300light, 400reg, 600semib
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+// font-family: 'Montserrat', sans-serif;
+
+// Poppins 100thin, 200xlight, 300light, 400reg, 600semib
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+// font-family: 'Poppins', sans-serif;

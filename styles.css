@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Rajdhani', sans-serif;
+	background: url('images/bg/space2.jpg') no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+header {
+/*	background-color: #333;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1400px;
+	padding: 10px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+/*header .brand {
+	display: flex;
+}
+*/
+header .brand a {
+	display: flex;
+}
+
+.navbar ul {
+	display: flex;
+	background: hsl(0, 0%, 0%, 0.75);
+}
+
+@supports (backdrop-filter: blur(1rem)) {
+	.navbar ul {
+		background: hsl(0, 0%, 100%, 0.1);
+		backdrop-filter: blur(1rem);
+	}
+}
+
+.navbar .nav-link a {
+	text-decoration: none;
+	color: #fff;
+	padding: 1.5rem;
+}
+
+/*.navbar .nav-link:hover {
+	background-color: #555;
+}*/
+
+@media screen and (max-width: 600px) {
+	.navbar ul {
+		gap: 3em;
+		position: fixed;
+		inset: 0 0 0 20%;
+		flex-direction: column;
+		padding: min(30vh, 10rem) 2em;
+/*		background-color: steelblue;*/
+		z-index: 5000;
+/*		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;*/
+	}
+
+	.navbar .nav-link {
+		text-align: center;
+	}
+
+	.button-toggle {
+		background-color: #fff;
+		width: 30px;
+		height: 3px;
+		border: none;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		z-index: 9999;
+	}
+
+
+}
