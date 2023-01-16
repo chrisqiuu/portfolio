@@ -45,7 +45,7 @@ header .brand img {
 }
 
 header.navbar-scroll-at-60 {
-	background: hsl(0, 0%, 0%, 0.1);
+	background: hsl(0, 0%, 0%, 0.3);
 }
 /* End of branding */
 
@@ -334,7 +334,10 @@ header.navbar-scroll-at-60 {
 }
 
 .about .about-container img {
+	margin-top: 20px;
 	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 	display: none;
 }
 
@@ -344,6 +347,12 @@ header.navbar-scroll-at-60 {
 	grid-template-columns: 1fr;
 	grid-auto-rows: 3fr 5fr;
 	max-width: 70%;
+}
+
+.about div.about-content {
+	height: 100%;
+	overflow: hidden;
+	padding-bottom: 30px;
 }
 
 .about div.about-content h1 {
@@ -388,5 +397,4 @@ header.navbar-scroll-at-60 {
 		text-align: center;
 	}
 }
-
 /* End of About Me */
